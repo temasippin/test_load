@@ -7,7 +7,7 @@ from models.dict_city_vacancy import DictCityVacancy
 
 
 class DictCityVacancyRepository:
-    """Репозиторий для работы с таблицей городов и вакансий (Dependency Inversion)"""
+    """Репозиторий для работы с таблицей городов и вакансий"""
     def __init__(self, db_manager: DatabaseManager):
         self.db_manager = db_manager
 

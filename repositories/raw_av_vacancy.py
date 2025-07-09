@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 
 class AvVacancyRepository:
-    """Репозиторий для работы с вакансиями (Dependency Inversion)"""
+    """Репозиторий для работы с вакансиями"""
     def __init__(self, db_manager: DatabaseManager):
         self.db_manager = db_manager
 

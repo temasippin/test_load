@@ -1,7 +1,9 @@
 import asyncio
 import logging
 import os
+
 from dotenv import load_dotenv
+
 from db import Base, DatabaseManager
 from models.raw_av_vacancy import RawAvVacancy
 from repositories.dict_city_vacancy import DictCityVacancyRepository
